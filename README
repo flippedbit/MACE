@@ -1,0 +1,12 @@
+Written by Michael Straughan 04/14/2012
+
+Allows user to change a specified file's creation time, last written time, as well as last accessed time from the command prompt with no other interaction.
+
+Usage: mace  [filename] [options] [time]
+Options:
+-c	Change file create time
+-w	Change file last write time
+-a	Change file last access time
+-h	Display usage
+
+Example: mace C:\test.txt -c 21/12/2012 14:11
